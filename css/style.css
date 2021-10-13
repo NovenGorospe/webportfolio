@@ -123,3 +123,191 @@ header .navbar ul li a{
 .gitlink1{
 	width: 3rem;
 }
+hr{
+	 border: 1px solid white;
+
+}
+label{
+	font-size: 22px;
+	color: yellow;
+	font-weight: bold;
+}
+span.span-about{
+	color: white;
+	font-size: 1.1rem;
+}
+.list-about{
+	font-size: 5rem;
+	color: yellow;
+}
+.educ{
+	color: yellow;
+}
+/*.card-project{
+	height: 15rem;
+}
+.box-container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 1rem;
+	padding-left: 3rem;
+}
+.box-container .box{
+
+}
+*/
+
+
+
+
+
+@media (max-width: 1200px){
+	html{
+		font-size: 80%;
+	}
+}
+@media (max-width: 900px){
+	header{
+		left: -120%;
+	}
+	#menu{
+		display: block;
+	}
+	header.toggle{
+		left: 0%;
+	}
+	header{
+		width: 50vw;
+	}
+	header .navbar ul li a{
+	display: block;
+	padding: .5rem;
+	margin: 1rem 0;
+	background: #333;
+	color: #fff;
+	font-size: 1.5rem;
+	border-radius: 5rem;
+	width: 20rem;
+	text-decoration: none;
+}
+header .user img{
+	height: 15rem;
+	width: 15rem;
+	 border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 1rem;
+	margin-top: 2rem;
+}
+header .user .name{
+	font-size: 2.5rem;
+	color: #fff;
+	
+
+}
+header .user .post{
+	font-size: 1.2rem;
+	color: #eee;
+	
+	text-align: center;
+	
+}
+.about-content{
+	font-size: 2rem;
+}
+.btn{
+	display: block;
+	padding: .5rem;
+	margin: 1.5rem;
+	background: #333;
+	color: white;
+	font-size: 1rem;
+	border-radius: 5rem;
+	width: 18rem;
+	text-decoration: none;
+	font-size: 2rem;
+}
+.btn:hover{
+	background-color: yellow;
+	color: black;
+
+}.link:hover{
+	background-color: yellow;
+	color: black;
+}
+.gitlink{
+	width: 6rem;
+
+}
+.gitlink1{
+	width: 5rem;
+}
+
+
+
+}
+
+
+
+
+@media (max-width: 500px){
+	header{
+		width: 100vw;
+	}
+	header .navbar ul li a{
+	display: block;
+	padding: .5rem;
+	margin: 1rem 0;
+	background: #333;
+	color: #fff;
+	font-size: 1.2rem;
+	border-radius: 5rem;
+	width: 23rem;
+	text-decoration: none;
+}
+header .user img{
+	height: 15rem;
+	width: 15rem;
+	 border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 1rem;
+	margin-top: 2rem;
+}
+header .user .name{
+	font-size: 3rem;
+	color: #fff;
+	margin-left: 2rem;
+	text-align: center;
+
+}
+header .user .post{
+	font-size: 1.5rem;
+	color: #eee;
+	padding-left: 5rem;
+	
+}
+.about-content{
+	font-size: 1.3rem;
+}
+.btn{
+	display: block;
+	padding: .5rem;
+	margin: .5rem;
+	background: #333;
+	color: white;
+	font-size: 1rem;
+	border-radius: 5rem;
+	width: 18rem;
+	text-decoration: none;
+	font-size: 15px;
+}
+.btn:hover{
+	background-color: yellow;
+	color: black;
+
+}.link:hover{
+	background-color: yellow;
+	color: black;
+}
+}
