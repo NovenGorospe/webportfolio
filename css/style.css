@@ -1,0 +1,125 @@
+*{
+	font-family: 'Nunito Sans', sans-serif;
+	margin:0px; padding: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	/*text-transform: capitalize;*/
+	transition: all 1s linear;
+}
+body{
+	font-family: 'Nunito Sans', sans-serif;
+	background: #111;
+	overflow-x: hidden;
+	va
+}
+header{
+	position: fixed;
+	top: 0;left: 0;
+	z-index: 1000;
+	height: 100%;
+	width: 23.5rem;
+	background:dimgray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+	text-align: center;
+}
+header .user img{
+	height: 15rem;
+	width: 15rem;
+	 border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: .1rem;
+	margin-top: 4em;
+	margin-left: 0rem;
+	
+
+}
+header .user .name{
+	font-size: 3rem;
+	color: #fff;
+	width: 25rem;
+
+}
+header .user .post{
+	font-size: 1.5rem;
+	color: #eee;
+	width: 25rem;
+
+	
+}
+header .navbar{
+	width: 100%;
+}
+header .navbar ul{
+	list-style: none;
+	padding: .2rem 2rem;
+}
+header .navbar ul li a{
+	display: block;
+	padding: .5rem;
+	margin: .5rem;
+	background: #333;
+	color: #fff;
+	font-size: 1rem;
+	border-radius: 5rem;
+	width: 18rem;
+	text-decoration: none;
+}
+.intro-name{
+	color: yellow;
+}
+.cv{
+	padding-left:10px;
+
+}
+.btn{
+	display: block;
+	padding: .5rem;
+	margin: .5rem;
+	background: #333;
+	color: white;
+	font-size: 1rem;
+	border-radius: 5rem;
+	width: 18rem;
+	text-decoration: none;
+	font-size: 15px;
+}
+.btn:hover{
+	background-color: yellow;
+	color: black;
+
+}.link:hover{
+	background-color: yellow;
+	color: black;
+}
+#menu{
+	position: fixed;
+	top: 2rem;right: 2rem;
+	
+	color: #fff;
+	cursor: pointer;
+	font-size: 2rem;
+	padding: 1rem 1.5rem;
+	z-index: 1000;
+	display: none;
+}
+.hi{
+	font-size: 2rem;
+	font-weight: bold;
+	margin-top: 10rem;
+}
+.name1{
+	font-size: 4rem;
+	font-weight: bold;
+	
+}
+.gitlink{
+	width: 4rem;
+}
+.gitlink1{
+	width: 3rem;
+}
