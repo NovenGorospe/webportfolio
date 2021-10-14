@@ -302,7 +302,7 @@ h6{
 }
 p{
 	font-size: 1.5rem;
-	text-align: justify;
+	
 }
 input.form-control{
 	font-size: 1.5rem;
@@ -401,5 +401,11 @@ span.btn1{
 .btn1:hover{
 	background-color: yellow;
 	color: black;
+
+}
+p{
+	font-size: 1.5rem;
+	
+}
 
 }
