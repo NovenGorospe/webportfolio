@@ -300,6 +300,18 @@ input.form-control{
 	font-size: 1.5rem;
 	height: 5rem;
 }
+a.btn1{
+	display: block;
+	padding: .3rem;
+	margin: 1rem;
+	background: #333;
+	color: white;
+	text-align: center;
+	border-radius: 5rem;
+	width: 21rem;
+	text-decoration: none;
+	font-size: 1.7rem;
+}
 
 
 }
