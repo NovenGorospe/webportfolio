@@ -162,6 +162,9 @@ a.btn1{
 h5{
 	color: yellow;
 }
+a.training{
+	text-decoration: none;
+}
 
 
 
@@ -291,10 +294,11 @@ h5{
 	font-size: 2rem;
 }
 h6{
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 }
 p{
-	font-size: 1.3rem;
+	font-size: 1.5rem;
+	text-align: justify;
 }
 input.form-control{
 	font-size: 1.5rem;
