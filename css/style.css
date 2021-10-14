@@ -386,17 +386,17 @@ header .user .post{
 	background-color: yellow;
 	color: black;
 }
-span.btn1{
+a.btn1{
 	display: block;
 	padding: .3rem;
-	margin: 1rem;
+	margin: .5rem;
 	background: #333;
 	color: white;
 	text-align: center;
 	border-radius: 5rem;
-	width: 19rem;
+	width: 18rem;
 	text-decoration: none;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 .btn1:hover{
 	background-color: yellow;
