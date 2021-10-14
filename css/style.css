@@ -6,7 +6,7 @@
 	outline: none;
 	border: none;
 	/*text-transform: capitalize;*/
-	transition: all 1s linear;
+	transition: all .5s linear;
 }
 body{
 	font-family: 'Nunito Sans', sans-serif;
@@ -147,8 +147,8 @@ a.btn1{
 	display: block;
 	padding: .3rem;
 	margin: 1rem;
-	background: #333;
-	color: white;
+	background: yellow;
+	color: black;
 	text-align: center;
 	border-radius: 5rem;
 	width: 19rem;
@@ -156,7 +156,7 @@ a.btn1{
 	font-size: 1rem;
 }
 .btn1:hover{
-	background-color: yellow;
+	background-color: white;
 	color: black;
 }
 h5{
